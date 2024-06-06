@@ -14,7 +14,7 @@ javascript:void function(){function a(a,b,c){const d=document.createElement("but
 2. 使用`tampermonkey`浏览器插件 （推荐）：[`油猴脚本下载地址`](https://greasyfork.org/zh-CN/scripts/497248-h%E5%9B%BE%E4%B9%A6%E9%A6%86%E7%88%AC%E8%99%AB)
 
 
-# 使用说明：
+# 介绍：
 ## 菜单栏介绍：
 
 页面左侧会显示一个固定的菜单栏。该菜单栏包含以下按钮：
@@ -47,7 +47,7 @@ javascript:void function(){function a(a,b,c){const d=document.createElement("but
 
 `Shift + M`：导航到下一章（如果存在下一章）。
 
-## 详细
+## 详细使用说明
 
 1. 打开一本小说阅读的`第一章的第一页`，先检查这个章节有多少页。
 2. 执行脚本（tampermonkey不需要，因为tampermonkey会自动执行，此处是针对使用小书签的）。执行后会在左边看到一个侧边栏。
@@ -58,3 +58,9 @@ javascript:void function(){function a(a,b,c){const d=document.createElement("but
 7. 如果有下一章的话，按下`Shift + M`跳转到下一章，重复步骤:`2、3、4、6`。直到最后一章的最后一页的内容保存完毕，按下`下载`按钮来下载所保存的txt文件。
 
 
+
+# 代码文件
+
+源代码由ChatGPT生成，源代码文件在这------>[源代码文件](https://github.com/xzyl4303/HLIB-Novel-Downloader/blob/main/source%20code.js)
+
+小书签代码由[小书签生成器](https://chriszarate.github.io/bookmarkleter/)编译源代码制成------>[小书签代码文件](https://github.com/xzyl4303/HLIB-Novel-Downloader/blob/main/bookmark.js)
